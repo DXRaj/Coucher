@@ -31,6 +31,11 @@ tl.from(".line-bottom",{
     scale:0.5,
     opacity:0,
 })
+tl.from("#container>video",{
+  scale:0,
+    opacity:0,
+    duration:0.5
+})
 tl.from(".page1-bottom .bottom-left .left-svg,.btn-parent",{
     opacity:0,
 })
